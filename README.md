@@ -80,7 +80,9 @@ The system enables farmers to list agricultural products, buyers to discover and
 **Project Title:** Mobile-Based Market Linkage Platform for Smallholder Farmers in Ethiopia
 
 **Institution:** Addis Ababa University
+
 **College:** College of Natural and Computational Sciences
+
 **Department:** Computer Science
 
 ### Team Members
@@ -93,4 +95,4 @@ The system enables farmers to list agricultural products, buyers to discover and
 
 ## License
 
-This project was developed as part of the Bachelor of Science in Computer Science program at Addis Ababa University.
+This project is developed as part of the Bachelor of Science in Computer Science program at Addis Ababa University.
