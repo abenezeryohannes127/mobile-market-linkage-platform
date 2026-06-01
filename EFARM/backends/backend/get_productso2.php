@@ -1,0 +1,1 @@
+<?php include 'db.php'; $r=$conn->query('SELECT * FROM products'); $d=[]; while($row=$r->fetch_assoc())$d[]=$row; echo json_encode($d); ?>

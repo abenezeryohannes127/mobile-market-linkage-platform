@@ -1,0 +1,1 @@
+<?php include 'db.php'; $id=$_GET['id']; $r=$conn->query("SELECT * FROM products WHERE id='$id'"); echo json_encode($r->fetch_assoc()); ?>

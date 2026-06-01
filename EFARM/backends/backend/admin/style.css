@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+.sidebar h2 {
+    text-align: center;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.sidebar ul li:hover {
+    background: #575757;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+}
+ .main-content table th{
+
+paddding-top:12px;
+padding-bottom:12px;
+text-align: left;
+bacground-color: #04aa6d;
+color: #000000;
+}
+.main-content table td{
+ border:1px solid #ddd;
+}
+.main-content tr:hover {background-color: coral;}
+
+.button_update{
+background-color: #04aa6d;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+}
+
+.button_update:hover{
+background-color: #04ff6d;
+
+}
+
+.button_delete{
+
+background-color: #ff4444;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+}
+.button_delete:hover{
+background-color: #ff0000;
+}
+.button_add{
+background-color: #4400aa;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:left;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+}
+.button_add:hover{
+background-color: #0404ff;
+}
