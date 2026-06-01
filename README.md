@@ -8,21 +8,32 @@ The system enables farmers to list agricultural products, buyers to discover and
 
 ## Features
 
-- User registration and authentication
-- Role-based access (Farmer, Buyer, Transporter, Admin)
-- Agricultural product listing and management
-- Product search and filtering
-- Buyer–farmer communication and negotiation
+## Features
+
+- Secure user authentication and login
+- Role-based access for Farmers, Buyers, and Transporters
+- Product listing and management
+- Product browsing and detailed product views
+- Order placement and tracking
 - Transport request and coordination
-- Market information and price visibility
+- Real-time messaging between users
+- Product image upload support
+- Multi-language support:
+  - English
+  - Amharic
+  - Afaan Oromo
+
 - Administrative management dashboard
-- Multi-language ready architecture
+- Cross-platform support for Android and iOS
 
 ## Technology Stack
 
 ### Frontend
 
 - Flutter (Dart)
+- Android & iOS Support
+- Localization Support
+- Image Upload Functionality
 
 ### Backend
 
@@ -36,9 +47,26 @@ The system enables farmers to list agricultural products, buyers to discover and
 ## Project Structure
 
 ```text
-fluttertest/   -> Flutter mobile application
-backends/    -> PHP REST API and business logic
-sql/   -> Database schema and SQL scripts
+.
+├── README.md
+└── EFARM/
+    ├── fluttertest/                 # Flutter mobile application
+    │   ├── android/
+    │   ├── ios/
+    │   ├── web/
+    │   ├── windows/
+    │   ├── linux/
+    │   ├── macos/
+    │   ├── assets/
+    │   └── lib/
+    │
+    ├── backends/
+    │   ├── admin_dashboard/         # Administration dashboard
+    │   ├── apip/                    # REST API endpoints
+    │   └── backend/                 # Backend services and business logic
+    │
+    └── sql/
+        └── marketplace (3).sql      # Database schema
 ```
 
 ## Objectives
@@ -63,7 +91,7 @@ sql/   -> Database schema and SQL scripts
 - Amanuel Hailu (NSE/0670/14)
 - Kalkidan Admasu (NSE/1771/14)
 
-**Project Advisor:** Dr. Surafel Habib
+**Project Advisor:** Surafel Habib
 
 ## License
 
