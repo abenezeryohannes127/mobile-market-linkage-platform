@@ -8,8 +8,6 @@ The system enables farmers to list agricultural products, buyers to discover and
 
 ## Features
 
-## Features
-
 - Secure user authentication and login
 - Role-based access for Farmers, Buyers, and Transporters
 - Product listing and management
